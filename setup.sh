@@ -22,7 +22,7 @@ curl -sSL https://raw.githubusercontent.com/soundnesslabs/soundness-layer/main/s
 
 # PATH güncellemesi
 echo 'export PATH="$HOME/.soundness/bin:$PATH"' >> ~/.bashrc
-source ~/.bashrc
+export PATH="$HOME/.soundness/bin:$PATH"   # <- direkt aktif et
 
 # soundness-cli kurulumu
 echo "⚙️ soundness-cli kuruluyor..."
